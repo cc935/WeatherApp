@@ -85,30 +85,24 @@ body {background-color: #f2f2f2;}
     padding: 30px;
 }
 
-  .app-top-bar {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  
-  .app-heading {
+.app-heading {
     color: var(--font-color);
     display: block;
     flex: 1;
     font-size: 28px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0;
     text-align: center;
-  }
-  
-  button {
-      border: 0;
-      &:focus {
-          border: none;
-          outline: 0 !important;
-          outline-style: none;
-      }
-  }
+}
+
+button {
+    border: 0;
+    &:focus {
+        border: none;
+        outline: 0 !important;
+        outline-style: none;
+    }
+}
   
   .button {
     color: var(--font-color);
